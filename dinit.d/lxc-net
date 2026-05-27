@@ -1,0 +1,8 @@
+type            = scripted
+smooth-recovery = true
+command         = /usr/lib/lxc/lxc-net start
+stop-command    = /usr/lib/lxc/lxc-net stop
+logfile         = /var/log/dinit/lxc-net.log
+#before          = lxc
+after           = network-online.target
+env-file        = /etc/dinit.d/config/lxc-net.conf
