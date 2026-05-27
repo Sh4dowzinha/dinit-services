@@ -1,0 +1,7 @@
+type            = process
+command         = /usr/bin/tlp-pd
+smooth-recovery = true
+depends-on      = tlp
+depends-on      = dbus
+after           = local.target
+before          = login.target

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.UPower.PowerProfiles
+Exec=/usr/bin/tlp-pd
+User=root

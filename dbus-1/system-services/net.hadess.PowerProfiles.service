@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=net.hadess.PowerProfiles
+Exec=/usr/bin/tlp-pd
+User=root
