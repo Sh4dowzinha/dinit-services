@@ -1,0 +1,4 @@
+type     = scripted
+command  = /usr/bin/xdg-user-dirs-update
+restart  = false
+log-type = buffer
