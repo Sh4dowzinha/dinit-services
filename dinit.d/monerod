@@ -1,5 +1,5 @@
 type            = process
-command         = "/usr/local/bin/monerod" --config-file /etc/monero/monerod.conf --non-interactive
+command         = "/usr/bin/monerod" --config-file /etc/monerod.conf --non-interactive
 run-as          = monero
 smooth-recovery = true
 restart-delay   = 30
