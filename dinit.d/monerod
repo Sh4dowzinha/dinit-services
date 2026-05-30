@@ -3,4 +3,4 @@ command         = "/usr/bin/monerod" --config-file /etc/monerod.conf --non-inter
 run-as          = monero
 smooth-recovery = true
 restart-delay   = 30
-waits-for       = network-online.target
+after           = network-online.target
